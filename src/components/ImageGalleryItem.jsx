@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import css from './style.module.css';
 import PropTypes from 'prop-types';
-
 export class ImageGalleryItem extends Component {
   render() {
     const { image, openModal } = this.props;
